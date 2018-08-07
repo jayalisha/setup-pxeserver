@@ -1,0 +1,13 @@
+--- 
+
+- hosts: all
+  gather_facts: true
+
+
+  roles:
+    - tftpserver
+    - dhcpserver
+    - apacheserver
+    - pxeserver
+
+
